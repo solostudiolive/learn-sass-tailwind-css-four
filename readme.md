@@ -138,9 +138,7 @@ sass-tailwind-project/
 #### src/tailwind/tailwind.css
 
 ```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 ```
 
 #### src/scss/main.scss
