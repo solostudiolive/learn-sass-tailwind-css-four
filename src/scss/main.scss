@@ -1,0 +1,12 @@
+// Variables
+
+// Import partials
+@import "components/buttons";
+@import "components/containers";
+@import "utilities/spacing";
+@import "pages/home";
+
+h1 {
+	font-size: 48px;
+	font-weight: 700;
+}

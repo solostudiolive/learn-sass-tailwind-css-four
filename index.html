@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sass & Tailwind Project (Separate Files)</title>
+
+    <!-- You can use either the combined CSS file -->
+    <!-- <link rel="stylesheet" href="dist/css/styles.css"> -->
+
+    <!-- Or you can load the files separately for development -->
+
+    <link rel="stylesheet" href="dist/css/tailwind.css">
+    <link rel="stylesheet" href="dist/css/sass-styles.css">
+
+</head>
+
+<body class="bg-gray-100">
+    <div class="hero">
+        <div class="custom-container text-center">
+            <h1 class="text-7xl text-center uppercase text-red-400">Sass & Tailwind CSS Project</h1>
+            <p>This is a starter template using separate Sass and Tailwind CSS files.</p>
+        </div>
+    </div>
+
+    <div class="custom-container py-8">
+        <div class="max-w-md mx-auto bg-white card p-6">
+            <p class="spacing-md">This is a sample project using:</p>
+            <ul class="list-disc pl-5 spacing-md">
+                <li>Tailwind CSS for utility classes</li>
+                <li>Sass for custom component styles</li>
+            </ul>
+            <div class="flex space-x-4">
+                <button class="btn-custom">Sass Button</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Tailwind Button
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
