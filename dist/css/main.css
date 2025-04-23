@@ -1,0 +1,46 @@
+.btn-custom {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+  color: white;
+}
+.btn-secondary {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+}
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.spacing-sm {
+  margin-bottom: 0.5rem;
+}
+
+.spacing-md {
+  margin-bottom: 1rem;
+}
+
+.spacing-lg {
+  margin-bottom: 2rem;
+}
+
+.hero {
+  padding: 4rem 0;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */
